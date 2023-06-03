@@ -126,10 +126,6 @@ export NVM_DIR="$HOME/.nvm"
 # Set DOPPLER_TOKEN and ignore it from bash history
 export HISTIGNORE='export DOPPLER_TOKEN*'
 
-export DOPPLER_TOKEN_DEV="dp.st.dev_docker-compose.sZnCtxmbQx93HoHEZ96a5OkW9Q1QC6zPL724r7iROTm"
-export DOPPLER_TOKEN_STAGING="dp.st.stg_docker-compose.3S4BK3q1UqZZ6Ow3IRVywAMf5GK8CqmTL9nz1fYTErg"
-export DOPPLER_TOKEN_PROD="dp.st.prd_docker-compose.aEC7UagX7MjVLiyCkonCcXz4o3ICJZSt2zjHK5mIUAB"
-
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
